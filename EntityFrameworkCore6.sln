@@ -1,6 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore6", "EntityFrameworkCore6\EntityFrameworkCore6.csproj", "{0E2F3F1E-E87A-4216-9D22-561742897C6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore6.WebApi", "EntityFrameworkCore6.WebApi\EntityFrameworkCore6.WebApi.csproj", "{0E2F3F1E-E87A-4216-9D22-561742897C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Presentation", "0 Presentation", "{A0A9AC7E-F738-47E1-9DE2-70271F904967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Domain - Business", "1 Domain - Business", "{CC8AF2D3-1D37-4F81-90E9-A4EA9A96BC98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Domain - Models", "2 Domain - Models", "{0B3E23FC-5F77-446C-9E85-31531B1AB111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Infra", "3 Infra", "{B9077023-F03E-4FF5-8C2D-8CB361C105EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork", "UnitOfWork\UnitOfWork.csproj", "{81A96158-619F-4024-A96E-915CDDA6BC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{06E05950-5CF0-46E5-B4F1-824B023915AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +24,18 @@ Global
 		{0E2F3F1E-E87A-4216-9D22-561742897C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E2F3F1E-E87A-4216-9D22-561742897C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E2F3F1E-E87A-4216-9D22-561742897C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A96158-619F-4024-A96E-915CDDA6BC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A96158-619F-4024-A96E-915CDDA6BC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A96158-619F-4024-A96E-915CDDA6BC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A96158-619F-4024-A96E-915CDDA6BC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E05950-5CF0-46E5-B4F1-824B023915AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E05950-5CF0-46E5-B4F1-824B023915AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E05950-5CF0-46E5-B4F1-824B023915AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E05950-5CF0-46E5-B4F1-824B023915AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E2F3F1E-E87A-4216-9D22-561742897C6E} = {A0A9AC7E-F738-47E1-9DE2-70271F904967}
+		{81A96158-619F-4024-A96E-915CDDA6BC24} = {B9077023-F03E-4FF5-8C2D-8CB361C105EA}
+		{06E05950-5CF0-46E5-B4F1-824B023915AE} = {B9077023-F03E-4FF5-8C2D-8CB361C105EA}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-namespace EntityFrameworkCore6;
+namespace EntityFrameworkCore6.WebApi;
 
 public class WeatherForecast
 {
