@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using UnitOfWork;
@@ -15,11 +16,16 @@ public static class InfrastructureServiceCollection
 
         if (environment.IsDevelopment() || environment.IsStaging())
         {
-            services.AddDbContext<ApplicationDbContext>();
+            services.AddDbContext<ApplicationDbContext>(option => option
+                .UseMySQL(connectionString)
+                .LogTo(Console.WriteLine, LogLevel.Trace)
+                .EnableSensitiveDataLogging()
+                .EnableDetailedErrors());
         }
         else
         {
-            services.AddDbContext<ApplicationDbContext>();
+            services.AddDbContext<ApplicationDbContext>(option => option
+                .UseMySQL(connectionString));
         }
 
         return services;

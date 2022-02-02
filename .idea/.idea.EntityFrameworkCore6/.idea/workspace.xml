@@ -8,17 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7661f13b-83c1-4d1c-b830-85eaaf4e8ce4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UnitOfWork/UnitOfWork.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EntityFrameworkCore6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EntityFrameworkCore6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/EntityFrameworkCore6.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/EntityFrameworkCore6.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/WeatherForecast.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/appsettings.json" afterDir="false" />
+    <list default="true" id="7661f13b-83c1-4d1c-b830-85eaaf4e8ce4" name="Changes" comment="Add EF Core 6">
+      <change beforePath="$PROJECT_DIR$/DependencyInjection/InfrastructureServiceCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/InfrastructureServiceCollection.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643758069309</updated>
-      <workItem from="1643758073895" duration="1559000" />
+      <workItem from="1643758073895" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1643758155541</created>
@@ -101,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643758155541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add EF Core 6">
+      <created>1643759765673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643759765673</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="Add EF Core 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add EF Core 6" />
   </component>
 </project>
