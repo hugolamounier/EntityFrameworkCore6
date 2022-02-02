@@ -10,14 +10,14 @@ namespace DependencyInjection;
 
 public static class InfrastructureServiceCollection
 {
-    public static IServiceCollection AddMySQlServer(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment environment)
+    public static IServiceCollection AddMySqlServer(this IServiceCollection services, IConfiguration configuration, IWebHostEnvironment environment)
     {
         var connectionString = configuration["DefaultConnection"];
 
         if (environment.IsDevelopment() || environment.IsStaging())
         {
             services.AddDbContext<ApplicationDbContext>(option => option
-                .UseMySQL(connectionString)
+                .UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
                 .LogTo(Console.WriteLine, LogLevel.Trace)
                 .EnableSensitiveDataLogging()
                 .EnableDetailedErrors());
@@ -25,7 +25,7 @@ public static class InfrastructureServiceCollection
         else
         {
             services.AddDbContext<ApplicationDbContext>(option => option
-                .UseMySQL(connectionString));
+                .UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
         }
 
         return services;

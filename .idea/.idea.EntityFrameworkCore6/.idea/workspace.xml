@@ -8,8 +8,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7661f13b-83c1-4d1c-b830-85eaaf4e8ce4" name="Changes" comment="Add EF Core 6">
+    <list default="true" id="7661f13b-83c1-4d1c-b830-85eaaf4e8ce4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Entity/Base/EntityBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitOfWork/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EntityFrameworkCore6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EntityFrameworkCore6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DependencyInjection/InfrastructureServiceCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/InfrastructureServiceCollection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/EntityFrameworkCore6.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/EntityFrameworkCore6.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.WebApi/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFrameworkCore6.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFrameworkCore6.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitOfWork/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitOfWork/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitOfWork/UnitOfWork.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnitOfWork/UnitOfWork.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/UnitOfWork/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/hugolamounier/RiderProjects/EntityFrameworkCore6/UnitOfWork/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,6 +50,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,7 +94,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643758069309</updated>
-      <workItem from="1643758073895" duration="1879000" />
+      <workItem from="1643758073895" duration="4596000" />
+      <workItem from="1643765057211" duration="565000" />
+      <workItem from="1643767566829" duration="64000" />
+      <workItem from="1643767647888" duration="1277000" />
+      <workItem from="1643775442095" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1643758155541</created>
@@ -99,14 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643759765673</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DependencyInjection MySQL">
+      <created>1643760122711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643760122711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -123,6 +145,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="git ignore" />
     <MESSAGE value="Add EF Core 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add EF Core 6" />
+    <MESSAGE value="DependencyInjection MySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="DependencyInjection MySQL" />
   </component>
 </project>
